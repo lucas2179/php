@@ -1,5 +1,6 @@
 <?php
 
+echo "Digite o seu ID de conta na IBM Cloud: " 
 echo "<form action=\"index.php\" method=\"post\">";
 echo "<input type=\"text\" name=\"ent1\">";
 echo "<input type=\"submit\">";
