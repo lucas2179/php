@@ -6,7 +6,7 @@ echo "<input type=\"submit\">";
 
 if(isset($_POST["ent1"])){
     $queue = $_POST["ent1"];
-    $fh = fopen("temp.txt", 'w');
+    $fh = fopen("temp.txt", 'a');
     fwrite($fh, $queue);
     fclose($fh);
 }
