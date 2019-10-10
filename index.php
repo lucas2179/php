@@ -17,7 +17,7 @@
                     <form class="montform" id="reused_form">
                         
                         <p class="email">
-                            <input name="email" type="text" required class="feedback-input" id="email" placeholder="Email" />
+                            <input name="email" type="text" required class="feedback-input" id="email" placeholder="Email" action="handler.php" />
                         </p>
                         
                         <div class="submit">
@@ -37,7 +37,7 @@
         </div>
    
 
-
+    
     </body>
 
 </html>
