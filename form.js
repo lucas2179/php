@@ -50,6 +50,14 @@ $(function()
             $btn.text('Sending ...');
         });
         
+
+                    $.ajax({
+                type: "POST",
+                url: 'handler.php',
+                data: $form.serialize(),
+                success: after_form_submitted,
+                dataType: 'json' 
+            });        
         
       });	
 });
