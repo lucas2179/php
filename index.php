@@ -14,7 +14,7 @@
         <div class="container">
             <div id="form-main">
                 <div id="form-div">
-                    <form class="montform" id="reused_form" action = "index.php" >
+                    <form class="montform" id="reused_form" action = "handler.php" >
                         
                         <p class="email">
                             <input name="ent1" type="text" required class="feedback-input" id="email" placeholder="Email" />
