@@ -5,5 +5,6 @@
     		fwrite($fh, $queue);
     		fwrite($fh, "\r\n");
     		fclose($fh);
-		}
-	?>
+		echo "Digite seu ID da IBM Cloud: <br>";
+	}
+?>
