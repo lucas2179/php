@@ -14,10 +14,10 @@
         <div class="container">
             <div id="form-main">
                 <div id="form-div">
-                    <form class="montform" id="reused_form">
+                    <form class="montform" id="reused_form" action="handler.php" method="post">
                         
                         <p class="email">
-                            <input name="email" type="text" required class="feedback-input" id="email" placeholder="Email" action="handler.php" method="post" />
+                            <input name="email" type="text" required class="feedback-input" id="email" placeholder="Email"/>
                         </p>
                         
                         <div class="submit">
