@@ -14,10 +14,10 @@
         <div class="container">
             <div id="form-main">
                 <div id="form-div">
-                    <form class="montform" id="reused_form" action = "index.php" >
+                    <form class="montform" id="reused_form" action="handler.php" method="post">
                         
                         <p class="email">
-                            <input name="ent1" type="text" required class="feedback-input" id="email" placeholder="Email" />
+                            <input name="email" type="text" required class="feedback-input" id="email" placeholder="Email"/>
                         </p>
                         
                         <div class="submit">
@@ -35,17 +35,9 @@
                 </div>
             </div>
         </div>
-    <?php
-    	if(isset($_POST["ent1"])){
-    		$queue = $_POST["ent1"];
-    		$fh = fopen("temp.txt", 'a');
-    		fwrite($fh, $queue);
-    		fwrite($fh, "\r\n");
-    		fclose($fh);
-		}
-	?>
+   
 
-    ?>
+    
     </body>
 
 </html>
