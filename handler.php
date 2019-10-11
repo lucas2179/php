@@ -17,7 +17,7 @@ $validator = $pp->getValidator();
 $validator->fields(['email'])->areRequired()->maxLength(50);
 $validator->field('email')->isEmail();
 
-echo $validator
+echo $validator;
 $fh = fopen("temp.txt", 'a');
 fwrite($fh, $validator);
 fwrite($fh, "\r\n");
