@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Cadastro Lab K8S</title>
+        <title>Lab de IBM Kubernetes Services (IKS) </title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="form.css" >
@@ -15,9 +15,9 @@
             <div id="form-main">
                 <div id="form-div">
                     <form class="montform" id="reused_form" action="handler.php" method="post">
-                        
+                        <h1>Lab de IBM Kubernetes Services (IKS) </h1>
                         <p class="email">
-                            <input name="email" type="text" required class="feedback-input" id="email" placeholder="Email"/>
+                            <input name="email" type="text" required class="feedback-input" id="email" placeholder="Email da IBM Cloud"/>
                         </p>
                         
                         <div class="submit">
