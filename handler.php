@@ -25,7 +25,10 @@ $validator->field('email')->isEmail();
 
 $x = $_POST['email'];
 echo $x;
-
+$fh = fopen("temp.txt", 'a');
+fwrite($fh, $x);
+fwrite($fh, "\r\n");
+fclose($fh);
 // $pp->sendEmailTo('someone@gmail.com'); // ← Your email here
 
 echo $pp->process($_POST);
