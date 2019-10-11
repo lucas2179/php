@@ -24,7 +24,7 @@ $validator->field('email')->isEmail();
 // fclose($fh);
 
 $x = $_POST['email'];
-echo $x
+echo $x;
 
 // $pp->sendEmailTo('someone@gmail.com'); // ← Your email here
 
