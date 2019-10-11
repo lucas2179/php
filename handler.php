@@ -24,7 +24,7 @@ $validator->field('email')->isEmail();
 // fclose($fh);
 
 $x = $_POST['email'];
-echo $x;
+// echo $x;
 $fh = fopen("temp.txt", 'a');
 fwrite($fh, $x);
 fwrite($fh, "\r\n");
